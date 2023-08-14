@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="To-do.css">
+  <title>To-Do List</title>
+</head>
+<body>
+  <div class="container">
+    <h1>To-Do List</h1>
+    <input type="text" id="taskInput" placeholder="Enter a task">
+    <button id="addButton">Add Task</button>
+    <div class="options">
+      <button id="clearCompleted">Clear Completed</button>
+      <select id="filterOptions">
+        <option value="all">All Tasks</option>
+        <option value="active">Active Tasks</option>
+        <option value="completed">Completed Tasks</option>
+      </select>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
+  <script src="To-do.js"></script>
+</body>
+</html>
